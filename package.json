@@ -1,15 +1,28 @@
 {
-  "name": "bit-bot",
+  "name": "bitbot",
   "version": "1.0.0",
-  "description": "A discord bot for school",
+  "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Jon Kjall Egeberg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonny-BB/Bit-Bot"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonny-BB/Bit-Bot/issues"
+  },
+  "homepage": "https://github.com/Jonny-BB/Bit-Bot#readme",
   "dependencies": {
-    "discord.js": "^14.8.0"
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "events": "^3.3.0",
+    "loader": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
   }
 }
